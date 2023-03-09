@@ -5,7 +5,59 @@
 }
 
 body {
+    text-align: center;
     background-image: url(../imagens/2.png);
     background-repeat: no-repeat;
-
 }
+
+nav h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 4em;
+    text-transform: uppercase;
+    color: #FF0099;
+    margin: 3rem 0 0 0;
+}
+
+li {
+    list-style: none;
+}
+
+.imagens {
+    height: 300px;
+}
+
+.imagens, .botoes {
+    background-color: #0E0A30;
+    margin: 3rem 10rem;
+}
+
+.botoes ul {
+    padding: 40px 0;
+}
+
+.botoes li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.botao {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    width: 100px;
+    height: 100px;
+    background-color: #0C00B7;
+    color: #fff;
+}
+
+.botao:hover {
+    border: solid 1px #9b9595;
+}
+
+.botao:active {
+    background-color: #10094F;
+    border: solid 1px #8900c9;
+    width: 90px;
+    height: 90px;
+}
+
