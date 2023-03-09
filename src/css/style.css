@@ -4,3 +4,8 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(../imagens/2.png);
+    background-repeat: no-repeat;
+
+}
