@@ -11,7 +11,9 @@ for (let contador = 0; contador < listaDeBotoes.length; contador++) {
     
     //SELECIONAR O ELEMENTO DO ÍNDICE
     const botao = listaDeBotoes[contador];
+    //SELECIONAR O SEGUNDO ELEMENTO DO ÍNDICE DA SUBLISTA (classList)
     const instrumento = botao.classList[1];
+    
     const idAudio = `#audio_${instrumento}`;
     
     console.log(idAudio)
