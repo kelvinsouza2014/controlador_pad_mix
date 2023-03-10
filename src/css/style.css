@@ -7,20 +7,6 @@
 body {
     text-align: center;
     background: linear-gradient(150deg,#111B4C,#29008E,#650354,#A80053);
-    background-size: 150deg 330deg;
-    animation: rotacao-fundo 5s infinite alternate;
-}
-
-@keyframes rotacao-fundo {
-    0% {
-        /* background-position-x: 150deg; */
-        /* transform: rotate(150deg); */
-    }
-
-    100% {
-        /* background-position-x: 330deg; */
-        /* transform: rotate(330deg); */
-    }
 }
 
 nav h1 {
@@ -37,11 +23,21 @@ li {
 
 .imagens {
     height: 300px;
+    /* TEMPORÁRIO */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagens, .botoes {
     background-color: #0E0A30;
     margin: 3rem 10rem;
+}
+
+.imagens i {
+    /* TEMPORÁRIO */
+    color: #FF0099;
+    font-size: 60px;
 }
 
 .botoes ul {
@@ -70,6 +66,7 @@ li {
 .botao:active {
     background-color: #10094F;
     border: solid 1px #8900c9;
+    color: #A80053;
     transform: scale(0.9);
 }
 
