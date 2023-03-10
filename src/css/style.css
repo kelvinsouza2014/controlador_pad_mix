@@ -6,8 +6,9 @@
 
 body {
     text-align: center;
-    background-image: url(../imagens/2.png);
-    background-repeat: no-repeat;
+    background: linear-gradient(150deg,#111B4C,#29008E,#650354,#A80053);
+    /* background-image: url(../imagens/2.png); */
+    /* background-repeat: no-repeat; */
 }
 
 nav h1 {
