@@ -51,13 +51,12 @@ li {
 }
 
 .botao:hover {
-    border: solid 1px #9b9595;
+    border: solid 1px #635f5f;
 }
 
 .botao:active {
     background-color: #10094F;
     border: solid 1px #8900c9;
-    width: 90px;
-    height: 90px;
+    transform: scale(0.9);
 }
 
