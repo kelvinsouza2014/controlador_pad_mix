@@ -70,3 +70,31 @@ li {
     transform: scale(0.9);
 }
 
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+footer li {
+    font-size: 30px;
+    margin: 0 5rem;
+}
+
+footer a {
+    color: #10094F;
+}
+
+footer a:hover {
+    color: #A80053;
+}
+footer p {
+    color: #aba9c1;
+    margin-bottom: 3rem;
+    opacity: 0.4;
+}

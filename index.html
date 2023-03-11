@@ -16,50 +16,57 @@
         <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Big+Shoulders+Display:wght@800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <nav>
-                <h1>Controlador Pad Mix</h1>
-            </nav>
-        </header>
-        <main>
-            <!-- IMAGENS -->
-            <section class="imagens">
+        <div class="container">
+            <header>
+                <nav>
+                    <h1>Controlador Pad Mix</h1>
+                </nav>
+            </header>
+            <main>
+                <!-- IMAGENS -->
+                <section class="imagens">
+                    <ul>
+                        <li><i class="fa-solid fa-music"></i></li>
+                    </ul>
+                </section>
+                <!-- BOTÕES -->
+                <section class="botoes">
+                    <ul>
+                        <li><button class="botao audio_pom">Pom</button></li>
+                        <li><button class="botao audio_clap">Clap</button></li>
+                        <li><button class="botao audio_tim">Tim</button></li>
+                        <li><button class="botao audio_puff">Puff</button></li>
+                        <li><button class="botao audio_splash">Splash</button></li>
+                        <li><button class="botao audio_toim">Toim</button></li>
+                        <li><button class="botao audio_psh">Psh</button></li>
+                        <li><button class="botao audio_tic">Tic</button></li>
+                        <li><button class="botao audio_tom">Tom</button></li>
+                    </ul>
+                </section>
+                <!-- ÁUDIOS -->
+                <section class="audio">
+                    <ul>
+                        <li><audio src="./src/audio/pom.wav" id="audio_pom"></audio></li>
+                        <li><audio src="./src/audio/clap.wav" id="audio_clap"></audio></li>
+                        <li><audio src="./src/audio/tim.wav" id="audio_tim"></audio></li>
+                        <li><audio src="./src/audio/puff.wav" id="audio_puff"></audio></li>
+                        <li><audio src="./src/audio/splash.wav" id="audio_splash"></audio></li>
+                        <li><audio src="./src/audio/toim.wav" id="audio_toim"></audio></li>
+                        <li><audio src="./src/audio/psh.wav" id="audio_psh"></audio></li>
+                        <li><audio src="./src/audio/tic.wav" id="audio_tic"></audio></li>
+                        <li><audio src="./src/audio/tom.wav" id="audio_tom"></audio></li>
+                    </ul>
+                </section>
+            </main>
+            <footer>
                 <ul>
-                    <li><i class="fa-solid fa-music"></i></li>
+                    <li><a href="https://www.linkedin.com/in/kelvinsouza00/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/kelvinsouza2014" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="mailto:kelvinsouza2017@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
                 </ul>
-            </section>
-            <!-- BOTÕES -->
-            <section class="botoes">
-                <ul>
-                    <li><button class="botao audio_pom">Pom</button></li>
-                     <li><button class="botao audio_clap">Clap</button></li>
-                     <li><button class="botao audio_tim">Tim</button></li>
-                     <li><button class="botao audio_puff">Puff</button></li>
-                     <li><button class="botao audio_splash">Splash</button></li>
-                     <li><button class="botao audio_toim">Toim</button></li>
-                     <li><button class="botao audio_psh">Psh</button></li>
-                     <li><button class="botao audio_tic">Tic</button></li>
-                     <li><button class="botao audio_tom">Tom</button></li>
-                </ul>
-            </section>
-            <!-- ÁUDIOS -->
-            <section class="audio">
-                <ul>
-                    <li><audio src="./src/audio/pom.wav" id="audio_pom"></audio></li>
-                    <li><audio src="./src/audio/clap.wav" id="audio_clap"></audio></li>
-                    <li><audio src="./src/audio/tim.wav" id="audio_tim"></audio></li>
-                    <li><audio src="./src/audio/puff.wav" id="audio_puff"></audio></li>
-                    <li><audio src="./src/audio/splash.wav" id="audio_splash"></audio></li>
-                    <li><audio src="./src/audio/toim.wav" id="audio_toim"></audio></li>
-                    <li><audio src="./src/audio/psh.wav" id="audio_psh"></audio></li>
-                    <li><audio src="./src/audio/tic.wav" id="audio_tic"></audio></li>
-                    <li><audio src="./src/audio/tom.wav" id="audio_tom"></audio></li>
-                </ul>
-            </section>
-        </main>
-        <footer>
-
-        </footer>
-        <script src="./src/js/main.js"></script>
+                <p>&copy; Kelvin Souza. Todos os Direitos Reservados.</p>
+            </footer>
+            <script src="./src/js/main.js"></script>
+        </div>
     </body>
 </html>
