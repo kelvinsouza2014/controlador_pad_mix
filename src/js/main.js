@@ -1,6 +1,6 @@
 // FUNÇÃO DE REPRODUZIR O SOM
-function tocarSom (idElementoAudio) {
-    document.querySelector(idElementoAudio).play();
+function tocarSom (seletorDeAudio) {
+    document.querySelector(seletorDeAudio).play();
 }
 
 //REFERÊNCIA CONSTANTE
@@ -11,12 +11,15 @@ for (let contador = 0; contador < listaDeBotoes.length; contador++) {
     
     //SELECIONAR O ELEMENTO DO ÍNDICE
     const botao = listaDeBotoes[contador];
+    // console.log(botao)
     //SELECIONAR O SEGUNDO ELEMENTO DO ÍNDICE DA SUBLISTA (classList)
-    const instrumento = botao.classList[1];
-    
-    const idAudio = `#audio_${instrumento}`;
+    const instrumento = botao.classList[1];    
+    // console.log(instrumento)
+
+    const idAudio = `#${instrumento}`;
     
     console.log(idAudio)
+    
     //REFERÊNCIA (lista) SELECIONANDO O ELEMENTO "x" DO ÍNDICE / EXECUTAR FUNÇÃO / ABERTURA DE FUNÇÃO ANÔNIMA / EXECUÇÃO DE FUNÇÃO (tocarSom)
     botao.onclick = function () {
         tocarSom(idAudio);
