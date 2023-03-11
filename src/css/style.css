@@ -55,9 +55,7 @@ li {
     font-size: 1rem;
     width: 100px;
     height: 100px;
-    /* background-color: #0c00b7b0; */
     background: linear-gradient(150deg,#111B4C,#29008E,#650354,#A80053);
-
     color: #fff;
 }
 
