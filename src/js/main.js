@@ -1,4 +1,5 @@
 // FUNÇÃO DE REPRODUZIR O SOM
+
 function tocarSom (seletorDeAudio) {
     document.querySelector(seletorDeAudio).play();
 }
