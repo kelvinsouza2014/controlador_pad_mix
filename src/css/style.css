@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+    /* CONTEÚDO PRINCIPAL */
+
 body {
     text-align: center;
     background: linear-gradient(150deg,#111B4C,#29008E,#650354,#A80053);
@@ -23,7 +25,6 @@ li {
 
 .imagens {
     height: 300px;
-    /* TEMPORÁRIO */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,6 +70,8 @@ li {
     transform: scale(0.9);
 }
 
+    /* RODAPÉ */
+
 footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -97,6 +100,8 @@ footer p {
     margin-bottom: 3rem;
     opacity: 0.4;
 }
+
+    /* RESPONSIVIDADE */
 
 @media screen and (max-width:480px) {
     
