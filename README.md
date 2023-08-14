@@ -32,7 +32,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ## 📂 Temas abordados
 
-Recursos HTML e CSS:
+Lorem Ipsum is simply:
 
 - Lorem Ipsum
 - Lorem Ipsum
